@@ -109,12 +109,12 @@ export default function Home() {
       {/* Quick Stats */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
             {[
               { icon: Users, number: '50K+', label: 'Lives Touched' },
-              { icon: MapPin, number: '30+', label: 'Nations Visited' },
+              // { icon: MapPin, number: '30+', label: 'Nations Visited' },
               { icon: Heart, number: '100+', label: 'Outreaches' },
-              { icon: Calendar, number: '25+', label: 'Years of Ministry' }
+              { icon: Calendar, number: '5+', label: 'Years of Ministry' }
             ].map((stat, index) => (
               <div key={index} className="text-center animate-fadeInUp hover-lift group" style={{animationDelay: `${index * 0.1}s`}}>
                 <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-amber-200 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
@@ -236,7 +236,7 @@ export default function Home() {
               </div>
               <div className="text-left">
                 <p className="text-sm text-slate-400">Call Us</p>
-                <p className="font-semibold">+234 800 123 4567</p>
+                <p className="font-semibold">+234 706 335 7661</p>
               </div>
             </div>
             <div className="flex items-center space-x-3 group">
