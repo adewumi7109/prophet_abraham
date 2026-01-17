@@ -126,7 +126,7 @@ export default function Services() {
             <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-6">
               <MapPin className="text-amber-400 mx-auto mb-3" size={32} />
               <p className="text-sm text-slate-400">Location</p>
-              <p className="font-semibold">123 Faith Avenue, Lagos</p>
+              <p className="font-semibold">lOCATION </p>
             </div>
             <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-6">
               <Clock className="text-amber-400 mx-auto mb-3" size={32} />
@@ -136,7 +136,7 @@ export default function Services() {
             <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-6">
               <Phone className="text-amber-400 mx-auto mb-3" size={32} />
               <p className="text-sm text-slate-400">Contact</p>
-              <p className="font-semibold">+234 800 123 4567</p>
+              <p className="font-semibold">+234 706 335 7661</p>
             </div>
           </div>
         </div>

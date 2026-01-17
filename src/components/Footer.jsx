@@ -79,11 +79,11 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3 text-sm">
                 <MapPin size={18} className="text-amber-400 flex-shrink-0 mt-0.5" />
-                <span>123 Faith Avenue, Lagos, Nigeria</span>
+                <span>lOCATION</span>
               </li>
               <li className="flex items-start space-x-3 text-sm">
                 <Phone size={18} className="text-amber-400 flex-shrink-0 mt-0.5" />
-                <span>+234 800 123 4567</span>
+                <span>+234 706 335 7661</span>
               </li>
               <li className="flex items-start space-x-3 text-sm">
                 <Mail size={18} className="text-amber-400 flex-shrink-0 mt-0.5" />
